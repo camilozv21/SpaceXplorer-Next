@@ -12,7 +12,7 @@ export default function CoreCollection() {
         <h2>EXPLORATION DISCOVERY INNOVATION.</h2>
         <h3>Beyond The Stars!</h3>
         <p>Emerging in the world of technology, SpaceXplorer is dedicated to revolutionizing the customer experience. Our engineering team focuses on innovation and quality, ensuring that our line of products and services, including VR technology, experience sales, 3D printing, merchandising and loot boxes, deliver exceptional performance at affordable prices. SpaceXplorer, technology that transforms your world.</p>
-        <p className="decoration">x</p>
+        <p className="decoration" translate="no">x</p>
       </article>
 
       <section className="core-collection-container">
