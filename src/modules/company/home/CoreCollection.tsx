@@ -21,12 +21,12 @@ export default function CoreCollection() {
         {coreCollection.map((item, index) => (
           <article key={index + "core collection"} className="collection-wrap">
             <Link href={item.url}>
-              <img src={item.image} alt={t(`home.carousel.${index}.title`)} loading="lazy" className="image-collection" />
+              <img src={item.image} alt={item.title} loading="lazy" className="image-collection" />
             </Link>
             <Link href={item.url}>
-              <p className="core-title">{t(`home.carousel.${index}.title`)}</p>
+              <p className="core-title">{item.title}</p>
             </Link>
-            <p className="core-description">{t(`home.carousel.${index}.description`)}</p>
+            <p className="core-description">{item.description}</p>
           </article>
         ))}
       </section>
