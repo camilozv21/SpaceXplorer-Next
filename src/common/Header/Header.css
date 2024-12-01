@@ -185,14 +185,15 @@
     height: 40px;
     padding: 10px;
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--secondary);
+    color: var(--white);
 }
 
 .global-banner-content {
     margin: 0;
     font-size: 16px;
     font-weight: bold;
-    color: var(--black);
+    color: var(--white);
     text-align: center;
     flex-grow: 1;
 }
@@ -256,14 +257,11 @@
     }
 
     .global-banner {
-        background-color: var(--white);
         height: 32px;
     }
 
     .global-banner-content {
-        color: var(--black);
         font-size: 16px;
-        font-weight: 400;
     }
 
     .container-widgets-header {
@@ -333,7 +331,7 @@
     }
 
     .separator {
-        border: 1px solid #e2e2e2;
+        border: 1px solid var(--secondary);
     }
 
     .searchbar-mobile-container {

@@ -8,12 +8,10 @@ import { Indicator } from "@mantine/core";
 import { useAppSelector } from "@/lib/hooks";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const cart = useAppSelector((state) => state.cart);
   const [cartItems, setCartItems] = useState(cart.length);
-  const { i18n } = useTranslation();
 
   useEffect(() => {
     setCartItems(cart.length);

@@ -1,6 +1,5 @@
-'use client';
+"use client"
 
-import { useTranslation } from "react-i18next";
 import "./VideoFrame.css";
 
 export default function VideoFrame() {
@@ -8,8 +7,6 @@ export default function VideoFrame() {
   const handleContextMenu = (event: React.MouseEvent<HTMLVideoElement>) => {
     event.preventDefault();
   };
-
-  const { t } = useTranslation("home");
 
   return (
     <figure className="video-container">

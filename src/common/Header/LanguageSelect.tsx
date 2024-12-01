@@ -7,9 +7,9 @@ import { useTranslation } from "react-i18next";
 import { useRouter, usePathname } from 'next/navigation';
 import Cookies from 'js-cookie';
 import { useDisclosure } from "@mantine/hooks";
-import { languages, places } from "@/helpers/navbar";
 import { updateGeoInfo } from "@/lib/features/geoInfo/geoInfo";
 import { useAppDispatch } from "@/lib/hooks";
+import { languages } from "@/helpers/navbar";
 
 const LanguageSelect = () => {
   const { t, i18n } = useTranslation();

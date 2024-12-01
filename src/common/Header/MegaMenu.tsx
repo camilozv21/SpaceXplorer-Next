@@ -2,7 +2,6 @@
 
 import { Menu, Paper } from "@mantine/core";
 import "./MegaMenu.css";
-import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import { menuData } from "@/helpers/navbar";
 
@@ -18,7 +17,6 @@ interface GetAbsoluteUrlParams {
 }
 
 const MegaMenu = () => {
-  const { t } = useTranslation();
 
   // Helper function that construct the url to use absolute path also applies to burger menu
   const getAbsoluteUrl = ({ category, index }: GetAbsoluteUrlParams): string => {

@@ -7,7 +7,6 @@ import { IconSquareRoundedXFilled } from "@tabler/icons-react";
 import Link from "next/link";
 import { useState } from "react";
 import './Footer.css';
-import { newsLetter } from "@/services/newsLetter/newsLetterFooter";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { menuData } from "@/helpers/footer";
@@ -27,11 +26,11 @@ export default function Footer() {
     }
   });
 
-  const handleNewsLetterSubmit = async (values: { email: string }) => {
+  const handleNewsLetterSubmit = async () => {
     try {
       setLoading(true);
 
-      const response = await newsLetter(values)
+      const response = { is_valid: true };
 
       if (!response?.is_valid) {
         throw new Error('Network response was not ok');
