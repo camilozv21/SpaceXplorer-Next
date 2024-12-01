@@ -1,0 +1,221 @@
+.footer-container {
+  margin-top: auto;
+  background-color: var(--black);
+}
+
+.footer-wrap {
+  background-color: var(--black);
+  border: solid 40px var(--white);
+  border-radius: 60px;
+}
+
+.footer-widgets {
+  display: flex;
+  flex-flow: nowrap column;
+  padding: 1rem 0.5rem;
+}
+
+.widget-nav-menu {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.list-nav {
+  list-style: none;
+  padding: 0 1rem;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.list-nav .item-footer-content {
+  display: block;
+  color: var(--white);
+  font-size: 18px;
+  padding: 0.5rem 0;
+}
+
+.caption-footer {
+  color: var(--white);
+  font-weight: 700;
+  margin: 0 0 10px 10px;
+  border-bottom: 1px solid #939799;
+  display: inline-block;
+}
+
+/* a {
+  color: var(--black);
+  text-decoration: none;
+} */
+
+/* .footer-area-widgets {
+  display: none;
+} */
+
+#section-with-carson-logo {
+  order: 3;
+}
+
+.carson-logo-container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.carson-logo-container-footer img {
+  width: 50%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 18px;
+  max-width: 300px;
+}
+
+.social-media img {
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+}
+
+.input-wrapper-suscribe {
+  max-width: 300px;
+}
+
+.container-stay-connected {
+  padding: 8px 16px;
+  padding-left: 10px;
+}
+
+.button-suscribe-container {
+  display: none;
+}
+
+.widget-text {
+  display: flex;
+  padding: 0px 20px 15px 20px;
+  justify-content: space-evenly;
+  flex-flow: column;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.navbar-copyright {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+  font-size: 14px;
+  margin-right: 0.5rem;
+}
+
+.navbar-copyright li {
+  list-style: none;
+}
+
+.navbar-copyright li a {
+  color: var(--black);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 881px) {
+  .footer-widgets {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .widget-nav-menu {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .footer-area-widgets {
+    display: block;
+  }
+
+  .widget-text {
+    display: flex;
+    padding: 0px 20px 15px 20px;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    flex-flow: row;
+  }
+
+  .copyright-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--black);
+    font-size: 14px;
+  }
+
+  .navbar-copyright {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 0.5rem;
+    font-size: 14px;
+    margin-right: 0.5rem;
+  }
+
+  .navbar-copyright li {
+    list-style: none;
+  }
+
+  .navbar-copyright li a {
+    color: var(--black);
+    text-decoration: underline;
+  }
+
+  .social-media {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 18px;
+  }
+
+  .social-media img {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+  }
+
+  #section-with-carson-logo {
+    order: unset;
+  }
+  
+  .carson-logo-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+  }
+  
+  .carson-logo-container-footer img {
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    width: 50%;
+    height: 100%;
+  }
+
+  .button-suscribe-container {
+    margin: 0.5rem 0;
+  }
+
+  .button-suscribe-container {
+    display: block;
+  }
+  
+}
+
+@media screen and (min-width: 1000px){
+  .button-suscribe-container {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+#language-select-dropdown.mantine-Menu-dropdown {
+    --popover-border-color: initial; /* Change border color initial */
+}
+
+.button-submit-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.button-submit {
+    padding: 12px 20px;
+    background-color: #121212;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+#language-select-dropdown .mantine-UnstyledButton-root {
+    background-color: transparent;
+}
