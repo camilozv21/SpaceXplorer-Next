@@ -3,10 +3,8 @@
 import { coreCollection } from "@/utils/constants/homeCollection";
 import "./CoreCollection.css";
 import Link from "next/link";
-import { useTranslation } from "react-i18next";
 
 export default function CoreCollection() {
-  const { t } = useTranslation("home");
 
   return (
     <>
