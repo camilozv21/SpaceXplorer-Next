@@ -19,8 +19,8 @@ import initTranslations from "../i18n";
 const play = Play({ subsets: ['latin'], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
-  title: "Carson - Magnification You Can Trust™",
-  description: "Carson is proud to be the top U.S. manufacturer of magnifiers and pocket microscopes. For over 30 years Carson has been dedicated to providing high-quality optics to hunters, students, professionals, and hobbyists alike.",
+  title: "SpaceXplorer - Beyond the Stars™",
+  description: "SpaceXplorer is a leading provider of space exploration technology and services. We are dedicated to expanding the frontiers of human space exploration and creating a future where humanity is a multi-planetary species.",
   icons: {
     icon: "/favicon_carson.ico",
   }
